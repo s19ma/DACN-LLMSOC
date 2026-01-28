@@ -1,0 +1,2145 @@
+/etc/GeoIP.conf
+/etc/NetworkManager/NetworkManager.conf
+/etc/alternatives/java_sdk/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk/jre/lib/security/nss.cfg
+/etc/alternatives/java_sdk_1.8.0/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk_1.8.0/jre/lib/security/nss.cfg
+/etc/alternatives/java_sdk_1.8.0_openjdk/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk_1.8.0_openjdk/jre/lib/security/nss.cfg
+/etc/alternatives/java_sdk_openjdk/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk_openjdk/jre/lib/security/nss.cfg
+/etc/alternatives/jre/lib/amd64/jvm.cfg
+/etc/alternatives/jre/lib/security/nss.cfg
+/etc/alternatives/jre_1.8.0/lib/amd64/jvm.cfg
+/etc/alternatives/jre_1.8.0/lib/security/nss.cfg
+/etc/alternatives/jre_1.8.0_exports/lib/amd64/jvm.cfg
+/etc/alternatives/jre_1.8.0_exports/lib/security/nss.cfg
+/etc/alternatives/jre_1.8.0_openjdk/lib/amd64/jvm.cfg
+/etc/alternatives/jre_1.8.0_openjdk/lib/security/nss.cfg
+/etc/alternatives/jre_openjdk/lib/amd64/jvm.cfg
+/etc/alternatives/jre_openjdk/lib/security/java.policy
+/etc/alternatives/jre_openjdk/lib/security/nss.cfg
+/etc/alternatives/jre_openjdk_exports/lib/amd64/jvm.cfg
+/etc/alternatives/jre_openjdk_exports/lib/security/nss.cfg
+/etc/anacrontab
+/etc/asound.conf
+/etc/audisp/audispd.conf
+/etc/audit/audit-stop.rules
+/etc/audit/audit.rules
+/etc/audit/auditd.conf
+/etc/authselect/user-nsswitch.conf
+/etc/bashrc
+/etc/binfmt.d/kshcomp.conf
+/etc/crontab
+/etc/crypto-policies/back-ends/.config/back-ends/DEFAULT/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/DEFAULT/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/DEFAULT/opensslcnf.config
+/etc/crypto-policies/back-ends/.config/back-ends/FIPS/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/FIPS/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/FIPS/opensslcnf.config
+/etc/crypto-policies/back-ends/.config/back-ends/FUTURE/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/FUTURE/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/FUTURE/opensslcnf.config
+/etc/crypto-policies/back-ends/.config/back-ends/LEGACY/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/LEGACY/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/LEGACY/opensslcnf.config
+/etc/crypto-policies/back-ends/opensshserver.config
+/etc/crypto-policies/back-ends/openssl.config
+/etc/crypto-policies/back-ends/opensslcnf.config
+/etc/crypto-policies/config
+/etc/csh.cshrc
+/etc/csh.login
+/etc/dbus-1/session.conf
+/etc/dbus-1/system.conf
+/etc/dbus-1/system.d/com.redhat.RHSM1.Facts.conf
+/etc/dbus-1/system.d/com.redhat.RHSM1.conf
+/etc/dbus-1/system.d/com.redhat.SubscriptionManager.conf
+/etc/dbus-1/system.d/org.freedesktop.hostname1.conf
+/etc/dbus-1/system.d/org.freedesktop.import1.conf
+/etc/dbus-1/system.d/org.freedesktop.locale1.conf
+/etc/dbus-1/system.d/org.freedesktop.login1.conf
+/etc/dbus-1/system.d/org.freedesktop.machine1.conf
+/etc/dbus-1/system.d/org.freedesktop.systemd1.conf
+/etc/dbus-1/system.d/org.freedesktop.timedate1.conf
+/etc/dbus-1/system.d/teamd.conf
+/etc/depmod.d/dist.conf
+/etc/dnf/plugins/copr.conf
+/etc/dnf/plugins/debuginfo-install.conf
+/etc/dnf/plugins/product-id.conf
+/etc/dnf/plugins/subscription-manager.conf
+/etc/dnf/protected.d/dnf.conf
+/etc/dnf/protected.d/setup.conf
+/etc/dnf/protected.d/yum.conf
+/etc/dracut.conf
+/etc/e2fsck.conf
+/etc/firewalld/firewalld.conf
+/etc/fstab
+/etc/fuse.conf
+/etc/fwupd/remotes.d/lvfs-testing.conf
+/etc/grub2-efi.cfg
+/etc/grub2.cfg
+/etc/host.conf
+/etc/inittab
+/etc/insights-client/insights-client.conf
+/etc/kdump.conf
+/etc/krb5.conf
+/etc/kshrc
+/etc/ld.so.conf
+/etc/ld.so.conf.d/bind-export-x86_64.conf
+/etc/ld.so.conf.d/kernel-3.10.0-1160.105.1.el7.x86_64.conf
+/etc/ld.so.conf.d/kernel-3.10.0-1160.80.1.el7.x86_64.conf
+/etc/ld.so.conf.d/kernel-3.10.0-1160.el7.x86_64.conf
+/etc/ld.so.conf.d/kernel-4.18.0-553.27.1.el8_10.x86_64.conf
+/etc/ld.so.conf.d/mariadb-x86_64.conf
+/etc/libaudit.conf
+/etc/libblockdev/conf.d/00-default.cfg
+/etc/libreport/events.d/collect_dnf.conf
+/etc/libssh/libssh_client.config
+/etc/libssh/libssh_server.config
+/etc/libuser.conf
+/etc/locale.conf
+/etc/logrotate.conf
+/etc/lvm/lvm.conf
+/etc/lvm/lvmlocal.conf
+/etc/lvm/profile/cache-mq.profile
+/etc/lvm/profile/cache-smq.profile
+/etc/lvm/profile/lvmdbusd.profile
+/etc/lvm/profile/thin-generic.profile
+/etc/lvm/profile/thin-performance.profile
+/etc/man_db.conf
+/etc/mke2fs.conf
+/etc/modprobe.d/CIS.conf
+/etc/modprobe.d/dccp-blacklist.conf
+/etc/modprobe.d/firewalld-sysctls.conf
+/etc/modprobe.d/mlx4.conf
+/etc/modprobe.d/tuned.conf
+/etc/my.cnf
+/etc/netconfig
+/etc/nsswitch.conf
+/etc/ntp.conf
+/etc/openldap/ldap.conf
+/etc/opt/CARKpsmp/conf/basic_psmpserver.conf
+/etc/opt/pta/ag/params.conf
+/etc/opt/pta/ag/send_json.conf
+/etc/opt/pta/diamond-resources/Vault.ini
+/etc/opt/pta/tomcat/catalina.policy
+/etc/pki/ca-trust/ca-legacy.conf
+/etc/pki/nss-legacy/nss-rhel7.config
+/etc/plymouth/plymouthd.conf
+/etc/polkit-1/rules.d/49-polkit-pkla-compat.rules
+/etc/polkit-1/rules.d/50-default.rules
+/etc/postfix/dynamicmaps.cf
+/etc/postfix/main.cf
+/etc/postfix/master.cf
+/etc/prelink.conf.d/fipscheck.conf
+/etc/prelink.conf.d/grub2.conf
+/etc/prelink.conf.d/nss-softokn-prelink.conf
+/etc/python/cert-verification.cfg
+/etc/rdma/mlx4.conf
+/etc/resolv.conf
+/etc/rhsm/logging.conf
+/etc/rhsm/rhsm.conf
+/etc/rsyncd.conf
+/etc/rsyslog.conf
+/etc/rsyslog.d/listen.conf
+/etc/rwtab
+/etc/sasl2/smtpd.conf
+/etc/security/access.conf
+/etc/security/chroot.conf
+/etc/security/faillock.conf
+/etc/security/group.conf
+/etc/security/limits.conf
+/etc/security/namespace.conf
+/etc/security/namespace.init
+/etc/security/pam_env.conf
+/etc/security/pwhistory.conf
+/etc/security/sepermit.conf
+/etc/security/time.conf
+/etc/selinux/config
+/etc/selinux/semanage.conf
+/etc/sestatus.conf
+/etc/skel/.bashrc
+/etc/skel/.kshrc
+/etc/snmp/snmpd.conf
+/etc/snmp/snmptrapd.conf
+/etc/ssh/sshd_config
+/etc/statetab
+/etc/sudo-ldap.conf
+/etc/sudo.conf
+/etc/sysconfig/authconfig
+/etc/sysconfig/ebtables-config
+/etc/sysconfig/ip6tables-config
+/etc/sysconfig/iptables-config
+/etc/sysconfig/nftables.conf
+/etc/sysctl.conf
+/etc/systemd/bootchart.conf
+/etc/systemd/coredump.conf
+/etc/systemd/journald.conf
+/etc/systemd/logind.conf
+/etc/systemd/pstore.conf
+/etc/systemd/resolved.conf
+/etc/systemd/system.conf
+/etc/systemd/user.conf
+/etc/tcsd.conf
+/etc/tuned/tuned-main.conf
+/etc/udev/udev.conf
+/etc/udisks2/udisks2.conf
+/etc/vconsole.conf
+/etc/vmware-tools/vgauth.conf
+/etc/wpa_supplicant/wpa_supplicant.conf
+/etc/yum.conf
+/etc/yum/pluginconf.d/copr.conf
+/etc/yum/pluginconf.d/debuginfo-install.conf
+/etc/yum/pluginconf.d/product-id.conf
+/etc/yum/pluginconf.d/search-disabled-repos.conf
+/etc/yum/pluginconf.d/subscription-manager.conf
+/etc/yum/protected.d/dnf.conf
+/etc/yum/protected.d/setup.conf
+/etc/yum/protected.d/systemd.conf
+/etc/yum/protected.d/yum.conf
+/etc/yum/version-groups.conf
+/etc/zabbix/zabbix_agentd.conf
+/home/infra/.bash_history
+/home/t24usr/.bash_history
+/home/vascan/.bash_history
+/opt/splunk/var/log/splunk/notable_modalert.log
+/opt/splunk/var/log/splunk/risk_modalert.log
+/opt/splunk/var/log/splunk/threat_add_modalert.log
+/root/.bash_history
+/var/log/anaconda/X.log
+/var/log/anaconda/anaconda.log
+/var/log/anaconda/dbus.log
+/var/log/anaconda/dnf.librepo.log
+/var/log/anaconda/hawkey.log
+/var/log/anaconda/ifcfg.log
+/var/log/anaconda/journal.log
+/var/log/anaconda/lvm.log
+/var/log/anaconda/packaging.log
+/var/log/anaconda/program.log
+/var/log/anaconda/storage.log
+/var/log/anaconda/syslog
+/var/log/audit/audit.log
+/var/log/audit/audit.log.1
+/var/log/audit/audit.log.2
+/var/log/audit/audit.log.3
+/var/log/audit/audit.log.4
+/var/log/boot.log-20220922
+/var/log/boot.log-20241129
+/var/log/boot.log-20241210
+/var/log/boot.log-20250211
+/var/log/boot.log-20250323
+/var/log/boot.log-20250531
+/var/log/boot.log-20250625
+/var/log/boot.log-20250627
+/var/log/cron
+/var/log/dmesg
+/var/log/dnf.librepo.log
+/var/log/dnf.librepo.log.1
+/var/log/dnf.librepo.log.2
+/var/log/dnf.librepo.log.3
+/var/log/dnf.log
+/var/log/dnf.log.1
+/var/log/dnf.log.2
+/var/log/dnf.log.3
+/var/log/dnf.log.4
+/var/log/dnf.rpm.log
+/var/log/hawkey.log
+/var/log/hawkey.log-20250824
+/var/log/hawkey.log-20250831
+/var/log/hawkey.log-20250907
+/var/log/hawkey.log-20250914
+/var/log/kdump.log
+/var/log/messages
+/var/log/messages-20250824
+/var/log/messages-20250831
+/var/log/messages-20250907
+/var/log/messages-20250914
+/var/log/messages-20250921
+/var/log/pta/activemq/activemq.log
+/var/log/pta/ag/install.log
+/var/log/pta/ag/send_json_all.log
+/var/log/pta/ag/send_json_all.log.1
+/var/log/pta/ag/send_json_all.log.2
+/var/log/pta/ag/send_json_all.log.3
+/var/log/pta/ag/send_json_all.log.4
+/var/log/pta/ag/send_json_all.log.5
+/var/log/pta/app/archive/diamond-1.log.gz
+/var/log/pta/app/archive/diamond-10.log.gz
+/var/log/pta/app/archive/diamond-11.log.gz
+/var/log/pta/app/archive/diamond-12.log.gz
+/var/log/pta/app/archive/diamond-13.log.gz
+/var/log/pta/app/archive/diamond-14.log.gz
+/var/log/pta/app/archive/diamond-15.log.gz
+/var/log/pta/app/archive/diamond-16.log.gz
+/var/log/pta/app/archive/diamond-17.log.gz
+/var/log/pta/app/archive/diamond-18.log.gz
+/var/log/pta/app/archive/diamond-19.log.gz
+/var/log/pta/app/archive/diamond-2.log.gz
+/var/log/pta/app/archive/diamond-20.log.gz
+/var/log/pta/app/archive/diamond-21.log.gz
+/var/log/pta/app/archive/diamond-22.log.gz
+/var/log/pta/app/archive/diamond-23.log.gz
+/var/log/pta/app/archive/diamond-24.log.gz
+/var/log/pta/app/archive/diamond-25.log.gz
+/var/log/pta/app/archive/diamond-26.log.gz
+/var/log/pta/app/archive/diamond-27.log.gz
+/var/log/pta/app/archive/diamond-28.log.gz
+/var/log/pta/app/archive/diamond-29.log.gz
+/var/log/pta/app/archive/diamond-3.log.gz
+/var/log/pta/app/archive/diamond-30.log.gz
+/var/log/pta/app/archive/diamond-31.log.gz
+/var/log/pta/app/archive/diamond-32.log.gz
+/var/log/pta/app/archive/diamond-33.log.gz
+/var/log/pta/app/archive/diamond-34.log.gz
+/var/log/pta/app/archive/diamond-35.log.gz
+/var/log/pta/app/archive/diamond-36.log.gz
+/var/log/pta/app/archive/diamond-37.log.gz
+/var/log/pta/app/archive/diamond-38.log.gz
+/var/log/pta/app/archive/diamond-39.log.gz
+/var/log/pta/app/archive/diamond-4.log.gz
+/var/log/pta/app/archive/diamond-40.log.gz
+/var/log/pta/app/archive/diamond-41.log.gz
+/var/log/pta/app/archive/diamond-42.log.gz
+/var/log/pta/app/archive/diamond-43.log.gz
+/var/log/pta/app/archive/diamond-44.log.gz
+/var/log/pta/app/archive/diamond-45.log.gz
+/var/log/pta/app/archive/diamond-46.log.gz
+/var/log/pta/app/archive/diamond-47.log.gz
+/var/log/pta/app/archive/diamond-48.log.gz
+/var/log/pta/app/archive/diamond-49.log.gz
+/var/log/pta/app/archive/diamond-5.log.gz
+/var/log/pta/app/archive/diamond-50.log.gz
+/var/log/pta/app/archive/diamond-51.log.gz
+/var/log/pta/app/archive/diamond-52.log.gz
+/var/log/pta/app/archive/diamond-53.log.gz
+/var/log/pta/app/archive/diamond-54.log.gz
+/var/log/pta/app/archive/diamond-55.log.gz
+/var/log/pta/app/archive/diamond-56.log.gz
+/var/log/pta/app/archive/diamond-57.log.gz
+/var/log/pta/app/archive/diamond-58.log.gz
+/var/log/pta/app/archive/diamond-59.log.gz
+/var/log/pta/app/archive/diamond-6.log.gz
+/var/log/pta/app/archive/diamond-60.log.gz
+/var/log/pta/app/archive/diamond-61.log.gz
+/var/log/pta/app/archive/diamond-62.log.gz
+/var/log/pta/app/archive/diamond-63.log.gz
+/var/log/pta/app/archive/diamond-64.log.gz
+/var/log/pta/app/archive/diamond-65.log.gz
+/var/log/pta/app/archive/diamond-66.log.gz
+/var/log/pta/app/archive/diamond-67.log.gz
+/var/log/pta/app/archive/diamond-68.log.gz
+/var/log/pta/app/archive/diamond-69.log.gz
+/var/log/pta/app/archive/diamond-7.log.gz
+/var/log/pta/app/archive/diamond-70.log.gz
+/var/log/pta/app/archive/diamond-71.log.gz
+/var/log/pta/app/archive/diamond-72.log.gz
+/var/log/pta/app/archive/diamond-73.log.gz
+/var/log/pta/app/archive/diamond-74.log.gz
+/var/log/pta/app/archive/diamond-75.log.gz
+/var/log/pta/app/archive/diamond-76.log.gz
+/var/log/pta/app/archive/diamond-77.log.gz
+/var/log/pta/app/archive/diamond-78.log.gz
+/var/log/pta/app/archive/diamond-79.log.gz
+/var/log/pta/app/archive/diamond-8.log.gz
+/var/log/pta/app/archive/diamond-80.log.gz
+/var/log/pta/app/archive/diamond-81.log.gz
+/var/log/pta/app/archive/diamond-82.log.gz
+/var/log/pta/app/archive/diamond-83.log.gz
+/var/log/pta/app/archive/diamond-84.log.gz
+/var/log/pta/app/archive/diamond-85.log.gz
+/var/log/pta/app/archive/diamond-86.log.gz
+/var/log/pta/app/archive/diamond-87.log.gz
+/var/log/pta/app/archive/diamond-88.log.gz
+/var/log/pta/app/archive/diamond-89.log.gz
+/var/log/pta/app/archive/diamond-9.log.gz
+/var/log/pta/app/archive/diamond-90.log.gz
+/var/log/pta/app/archive/diamond-91.log.gz
+/var/log/pta/app/catalina.2025-09-12.log
+/var/log/pta/app/catalina.2025-09-15.log
+/var/log/pta/app/catalina.out
+/var/log/pta/app/diamond.log
+/var/log/pta/app/installer-webapp.log
+/var/log/pta/app/localhost.2025-09-12.log
+/var/log/pta/app/localhost.2025-09-15.log
+/var/log/pta/app/upgrade_history.log
+/var/log/pta/casosServices/casosservices.log
+/var/log/pta/mongodb/mongod.log
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-26-06
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-26-30
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-28-56
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-40-40
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-22
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-41
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-50
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-57
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-45-12
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-45-28
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-47-06
+/var/log/pta/mongodb/mongod.log.2022-09-13T04-00-12
+/var/log/pta/mongodb/mongod.log.2022-09-21T09-18-52
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-18
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-27
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-34
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-41
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-55
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-03-25
+/var/log/pta/mongodb/mongod.log.2022-09-27T04-56-17
+/var/log/pta/mongodb/mongod.log.2022-09-27T07-50-40
+/var/log/pta/mongodb/mongod.log.2022-09-27T08-27-15
+/var/log/pta/mongodb/mongod.log.2022-09-27T08-31-13
+/var/log/pta/mongodb/mongod.log.2022-09-27T08-34-35
+/var/log/pta/mongodb/mongod.log.2022-09-27T09-04-39
+/var/log/pta/mongodb/mongod.log.2022-11-11T04-04-19
+/var/log/pta/mongodb/mongod.log.2022-11-11T04-07-29
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-58-32
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-58-49
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-58-58
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-59-04
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-59-16
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-59-32
+/var/log/pta/mongodb/mongod.log.2022-11-18T09-00-42
+/var/log/pta/mongodb/mongod.log.2023-11-14T02-56-43
+/var/log/pta/mongodb/mongod.log.2023-11-15T09-39-50
+/var/log/pta/mongodb/mongod.log.2023-11-30T03-26-57
+/var/log/pta/mongodb/mongod.log.2024-01-19T18-34-28
+/var/log/pta/mongodb/mongod.log.2025-09-12T08-43-21
+/var/log/pta/mongodb/mongod.log.2025-09-15T06-15-27
+/var/log/pta/mongodb/mongod.log.2025-09-15T06-44-20
+/var/log/pta/monitoring/mongodb_exporter.log
+/var/log/pta/monitoring/node_exporter.log
+/var/log/pta/monitoring/prometheus.log
+/var/log/pta/monitoring/pushgateway.log
+/var/log/pta/prepwiz/prepwiz.log
+/var/log/pta/statistics/statistics-1.log.gz
+/var/log/pta/statistics/statistics-2.log.gz
+/var/log/pta/statistics/statistics-3.log.gz
+/var/log/pta/statistics/statistics-4.log.gz
+/var/log/pta/statistics/statistics-5.log.gz
+/var/log/pta/statistics/statistics.log
+/var/log/pta/utility/diamond-utility.log
+/var/log/pta_installer_service.log
+/var/log/rhsm/rhsm.log
+/var/log/rhsm/rhsm.log-20250824
+/var/log/rhsm/rhsm.log-20250831
+/var/log/rhsm/rhsm.log-20250907
+/var/log/rhsm/rhsm.log-20250914
+/var/log/rhsm/rhsmcertd.log
+/var/log/rhsm/rhsmcertd.log-20250824
+/var/log/rhsm/rhsmcertd.log-20250831
+/var/log/rhsm/rhsmcertd.log-20250907
+/var/log/rhsm/rhsmcertd.log-20250914
+/var/log/secure
+/var/log/secure-20250824
+/var/log/secure-20250831
+/var/log/secure-20250907
+/var/log/secure-20250914
+/var/log/sssd/sssd.log-20241110
+/var/log/sssd/sssd_implicit_files.log-20241110
+/var/log/sssd/sssd_nss.log-20241110
+/var/log/tomcat/catalina.2024-01-19.log
+/var/log/tuned/tuned.log
+/var/log/vmware-network.1.log
+/var/log/vmware-network.2.log
+/var/log/vmware-network.3.log
+/var/log/vmware-network.4.log
+/var/log/vmware-network.5.log
+/var/log/vmware-network.6.log
+/var/log/vmware-network.7.log
+/var/log/vmware-network.8.log
+/var/log/vmware-network.9.log
+/var/log/vmware-network.log
+/var/log/vmware-vgauthsvc.log.0
+/var/log/vmware-vmsvc-root.log
+/var/log/vmware-vmtoolsd-root.log
+/var/log/yum.log-20230101
+/var/log/yum.log-20240101
+/var/log/yum.log-20250101
+/var/log/zabbix/zabbix_agentd.log-20230820.gz
+/var/log/zabbix/zabbix_agentd.log-20230909.gz
+/var/log/zabbix/zabbix_agentd.log-20230927.gz
+/var/log/zabbix/zabbix_agentd.log-20231011.gz
+/var/log/zabbix/zabbix_agentd.log-20231031.gz
+/var/log/zabbix/zabbix_agentd.log-20231114.gz
+/var/log/zabbix/zabbix_agentd.log-20231119.gz
+/var/log/zabbix/zabbix_agentd.log-20231126.gz
+/var/log/zabbix/zabbix_agentd.log-20231203.gz
+/var/log/zabbix/zabbix_agentd.log-20240120
+/var/log/zabbix/zabbix_agentd.log-20240825.gz
+/var/log/zabbix/zabbix_agentd.log-20240916.gz
+/var/log/zabbix/zabbix_agentd.log-20241007.gz
+/var/log/zabbix/zabbix_agentd.log-20241030.gz
+/var/log/zabbix/zabbix_agentd.log-20241113.gz
+/var/log/zabbix/zabbix_agentd.log-20241121.gz
+/var/log/zabbix/zabbix_agentd.log-20241124.gz
+/var/log/zabbix/zabbix_agentd.log-20241205.gz
+/var/log/zabbix/zabbix_agentd.log-20241212.gz
+/var/log/zabbix/zabbix_agentd.log-20250102.gz
+/var/log/zabbix/zabbix_agentd.log-20250103.gz
+/var/log/zabbix/zabbix_agentd.log-20250105.gz
+/var/log/zabbix/zabbix_agentd.log-20250126.gz
+/var/log/zabbix/zabbix_agentd.log-20250202.gz
+/var/log/zabbix/zabbix_agentd.log-20250205.gz
+/var/log/zabbix/zabbix_agentd.log-20250209.gz
+/var/log/zabbix/zabbix_agentd.log-20250329.gz
+/var/log/zabbix/zabbix_agentd.log-20250405
+/var/log/zabbix/zabbix_agentd.log-20250405.gz
+/var/log/zabbix/zabbix_agentd.log-20250704
+Access - Brute Force Access Behavior Detected Over 1d - Rule
+Access - iBank SPL #ACC52531 - Suspicious Login to Windows Server/Workstation - Rule
+ActiveDirectory
+Audit - Managed Lookups Size - Summary Gen
+Audit - iBank SPL #AUD52481 - Device stopped sending logs - Rule
+Audit - iBank SPL #OPS52243 - Network Device Configuration Change Detected - Rule
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025071603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025081208-4.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090515-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090516-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090517-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090518-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090519-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090520-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090521-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090522-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090523-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090600-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090601-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090602-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090603-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090604-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090605-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090607-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090608-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090608-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092108-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092108-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092109-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092110-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092111-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092112-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092113-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092114-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092115-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092116-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092117-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092118-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092119-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092120-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092121-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092122-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092123-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092200-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092201-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092202-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092203-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092204-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092205-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092206-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092207-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092208-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092209-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092210-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092211-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092212-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092213-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092214-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092215-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092216-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092217-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092218-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092219-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092220-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092221-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092222-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092223-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092300-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092301-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092302-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092303-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092304-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092305-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092306-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090608-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092108-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092108-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090608-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092304-1.LOG
+C:\Program Files\SplunkUniversalForwarder\var\log\Splunk_TA_windows\WindowsUpdate.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250905.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250906.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250921.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250922.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250923.log
+ESCU - Detect Excessive Account Lockouts From Endpoint - Rule
+Endpoint - Index Time Delta 2 - Summary Gen
+Linux:SELinuxConfig
+Network - iBank SPL #IDS52301 - SMB outbound traffic detected - Rule
+Network - iBank SPL #NET52201 - Internal Network Scanning Detection - Rule
+Network - iBank SPL #NET52203 - External Network Scanning Detection - Rule
+Network - iBank SPL #OPS52242 - Dormant firewall rule triggered - Rule
+Perfmon:ASP_NET
+Perfmon:ActiveSync
+Perfmon:Available_Memory
+Perfmon:DotNET_CLR_Memory
+Perfmon:MRM_Assistants_2013
+Perfmon:MRM_Counters_2013
+Perfmon:MSExchangeAutodiscover
+Perfmon:MSExchangeIS_Client_2013
+Perfmon:MSExchangeIS_Store
+Perfmon:MSExchangeWS
+Perfmon:MSExchange_ADAccess_Processes
+Perfmon:MSExchange_Assistants_Per_Assistant
+Perfmon:MSExchange_Assistants_Per_DB
+Perfmon:MSExchange_Availability_Service
+Perfmon:MSExchange_Calendarattendant
+Perfmon:MSExchange_Control_Panel
+Perfmon:MSExchange_Database_2013
+Perfmon:MSExchange_Database_Edge_Transport
+Perfmon:MSExchange_Database_Instances_2013
+Perfmon:MSExchange_Database_NoInstances
+Perfmon:MSExchange_Queue_Lengths
+Perfmon:MSExchange_Replication
+Perfmon:MSExchange_Resourcebooking
+Perfmon:MSExchange_RpcClientAccess
+Perfmon:MSExchange_SmtpReceive
+Perfmon:MSExchange_SmtpSend
+Perfmon:MSExchange_Store_Interface
+Perfmon:MSExchange_Store_Interface_Total
+Perfmon:MSExchange_Throttling_2013
+Perfmon:Network_Utilization
+Perfmon:OWA
+Perfmon:RPC_HTTP_Proxy
+Perfmon:TCPv4
+Perfmon:TCPv6
+Perfmon:Total_Processor_Time
+Perfmon:Web_Service
+PerfmonMk:CPU
+PerfmonMk:DFS_Replicated_Folders
+PerfmonMk:DNS
+PerfmonMk:LogicalDisk
+PerfmonMk:Memory
+PerfmonMk:NTDS
+PerfmonMk:Network
+PerfmonMk:Network_Interface
+PerfmonMk:PhysicalDisk
+PerfmonMk:Process
+PerfmonMk:Processor
+PerfmonMk:ProcessorInformation
+PerfmonMk:System
+Powershell
+Threat - Threat List Activity - Rule
+Threat - iBank SPL #NET52471 - Web Content Discovery Detected - Rule
+Threat - iBank SPL #THR24701 - Potential Active Directory Lateral Movement - Rule
+Unix:ListeningPorts
+Unix:SSHDConfig
+Unix:Service
+Unix:Update
+Unix:Uptime
+Unix:UserAccounts
+Unix:Version
+WinRegistry
+XmlWinEventLog:Application
+XmlWinEventLog:DNS Server
+XmlWinEventLog:Directory Service
+XmlWinEventLog:Security
+XmlWinEventLog:System
+ap-southeast-1:access.log:i-06bef0315658255c5
+ap-southeast-1:access.log:i-0fa74d96d0e5db035
+ap-southeast-1:auth.log:i-06bef0315658255c5
+ap-southeast-1:aws-cloudtrail-logs-188701360809-f1b134d1:o-33tj7043s9_188701360809_CloudTrail_ap-southeast-1
+ap-southeast-1:aws-cloudtrail-logs-188701360809-f1b134d1:o-33tj7043s9_188701360809_CloudTrail_ap-southeast-1_2
+ap-southeast-1:aws-cloudtrail-logs-188701360809-f1b134d1:o-33tj7043s9_188701360809_CloudTrail_ap-southeast-1_3
+ap-southeast-1:aws-cloudtrail-logs-188701360809-f1b134d1:o-33tj7043s9_188701360809_CloudTrail_ap-southeast-1_4
+ap-southeast-1:aws-waf-logs-1:ap-southeast-1_my-waf-rule_0
+ap-southeast-1:dev-prj-log-group:eni-02fe966165572f9b3-all
+ap-southeast-1:dev-prj-log-group:eni-05c05eb5b531e021a-all
+ap-southeast-1:dev-prj-log-group:eni-0a157408bf6f12d39-all
+ap-southeast-1:dev-prj-log-group:eni-0dd2ac7fde4381fbe-all
+auditd
+aws_firehose_cloudtrail_b5fd2d9c-eb2e-47e3-bcae-c3e9b59acc49
+aws_firehose_vpc_flowlogs_f304902d-3f73-4f29-9143-a9f4a83a9034
+bandwidth
+computer
+cpu
+default_is4s_ssef_daily_group
+default_is4s_ssef_hourly_group
+default_is4s_ssef_weekly_group
+df
+disk
+driver
+hardware
+interfaces
+iostat
+lastlog
+lsof
+missioncontrol
+netstat
+networkadapter
+openPorts
+operatingsystem
+package
+powershell://generate_windows_update_logs
+printer
+process
+processes
+processor
+protocol
+ps
+roles
+sc4s
+service
+services
+splunk-entitlements
+splunk-federated-analytics-usage
+splunk-fss3-usage
+splunk-ingestion
+splunk-search-count
+splunk-storage-detail
+splunk-storage-summary
+splunk-svc
+splunk-svc-consumer
+splunk-upgrade-readiness-checks-installed-apps
+splunk_search_breakdown
+ssef_admin_saml_groups
+ssef_admin_search_concurrency_settings_handler
+ssef_alert_actions
+ssef_apps_local
+ssef_audit_user_login_tracker
+ssef_authorization_roles
+ssef_cluster_config
+ssef_configs_conf_props
+ssef_data_indexes
+ssef_data_inputs
+ssef_data_models
+ssef_data_ui_views
+ssef_entitlements_csv_lookup
+ssef_ia4s_apps_app_activities
+ssef_ia4s_apps_app_activities_created
+ssef_ia4s_apps_app_activities_modified
+ssef_ia4s_apps_app_activities_removed
+ssef_ia4s_apps_inventory_support
+ssef_ia4s_apps_inventory_unused
+ssef_ia4s_apps_inventory_updated
+ssef_ia4s_environment_cache_thrash
+ssef_ia4s_environment_excessive_memory_usage
+ssef_ia4s_users_account_modifications
+ssef_ia4s_users_disk_quota
+ssef_ia4s_users_role_concurrency_queuing
+ssef_identities
+ssef_internal_splunkd_ui_access_tracker
+ssef_internal_web_access_tracker
+ssef_saved_searches
+ssef_scma_data_hygiene_event_indexing
+ssef_scma_data_hygiene_events_future
+ssef_scma_environment_excessive_cpu_load_average
+ssef_scma_environment_instance_inventory
+ssef_scma_environment_ko_alert_action_inventory
+ssef_scma_forwarder_output_connection_issues
+ssef_scma_forwarder_output_throughput_limits
+ssef_scma_forwarders_count_and_inventory
+ssef_scma_indexing_auto_assigned_sourcetypes
+ssef_scma_indexing_data_source_inventory
+ssef_scma_object_collisions
+ssef_scma_search_avg_run_time
+ssef_scma_search_bundle_size
+ssef_scma_search_commands_python
+ssef_scma_search_count_by_type
+ssef_scma_search_default_search_limits
+ssef_scma_search_indexer_concurrency_instance
+ssef_scma_search_long_running_searches
+ssef_scma_search_orphaned_objects
+ssef_scma_search_search_concurrency_stats
+ssef_scma_search_search_density
+ssef_scma_search_search_periodicity
+ssef_scma_search_searches_returning_no_results
+ssef_scma_search_skipped_searches_detail
+ssef_scma_top_50_dashboards
+ssef_scma_top_50_jobs
+ssef_search_failed_jobs_tracker
+ssef_shcluster_config
+ssef_splunk_instance_info
+ssef_splunkbase_apps
+summary_accelerated_data_models
+summary_alerts_failing_to_trigger
+summary_average_daily_scheduled_searches
+summary_average_daily_searches
+summary_average_daily_searches_distinct
+summary_average_ingest
+summary_blocked_queues_on_indexers
+summary_bucket_replication_issues
+summary_components_throwing_issues_in_the_logs
+summary_dashboards_with_high_memory_and_runtime
+summary_data_balance_across_splunk_servers
+summary_data_model_constrained_by_indexes
+summary_deployment_server_errors
+summary_distinct_data_sources
+summary_efs_kpis
+summary_high_cpu_usage_across_splunk_ecosystem
+summary_hosts_with_large_bundles
+summary_incoming_networking_errors
+summary_index_clustering_issues
+summary_indexers_reaching_disk_capacity
+summary_indexers_throttling_forwarders
+summary_inefficient_dashboard_panels
+summary_issue_reading_events_that_originated_via_hec
+summary_long_running_searches
+summary_number_of_forwarders
+summary_number_of_indexers
+summary_number_of_search_heads
+summary_outgoing_networking_errors
+summary_search_head_cluster_warnings_and_errors
+summary_searches_returning_no_results_improperly
+summary_searches_that_used_tstats
+summary_searches_with_high_memory_use
+summary_skipped_searches
+summary_sourcetypes_with_onboarding_issues
+summary_total_number_of_dashboards
+summary_total_search_concurrency
+summary_user_hitting_limits_on_search
+summary_users_exceeding_the_disk_quota_or_concurrency_quota
+threatmatch://dest
+threatmatch://src
+time
+top
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/AMS1-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/AMS1-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/AMS1-R3
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ARN50-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ATL58-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ATL58-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ATL59-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/BOM54-SN1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/CDG53-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/CDG54-SC1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DEN52-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DEN52-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DFW56-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DFW56-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DFW56-R3
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DFW57-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DFW57-R4
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DFW57-R5
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/DUS51-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/EWR53-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/EWR53-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/EWR53-R3
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/EWR53-R4
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/EWR53-R5
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/FRA54-SN1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/GRU2-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/GRU4-SN1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/HEL51-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/HIO52-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/HKG61-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/HKG62-SN1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/HYD56-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/HYD56-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/IAD55-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ICN57-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/JFK50-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/JFK50-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/JFK50-R3
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/JFK50-R4
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/KUL50-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/KUL51-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LAX50-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LAX53-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LAX53-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LAX53-R3
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LAX53-R4
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LHR53-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LHR54-SU1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/LHR61-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/MXP53-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/MXP53-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/MXP63-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/NRT55-SU1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/NRT8-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ORD56-R3
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ORD58-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ORD58-R4
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/PHX50-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/PHX50-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SCL51-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SEA900-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SEA900-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SFO6-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SFO9-SN1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SIN2-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SYD5-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/SYD6-SN1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/VIE50-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/VIE50-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/YTO50-R1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/YTO50-R2
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/YUL50-SO1
+us-east-1:/aws/route53/sm4llk4t.xyz:Z0799484ASI6BP6YWFLY/ZRH55-R1
+usersWithLoginPrivs
+vmstat
+who
+/etc/GeoIP.conf
+/etc/NetworkManager/NetworkManager.conf
+/etc/alternatives/java_sdk/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk/jre/lib/security/nss.cfg
+/etc/alternatives/java_sdk_1.8.0/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk_1.8.0/jre/lib/security/nss.cfg
+/etc/alternatives/java_sdk_1.8.0_openjdk/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk_1.8.0_openjdk/jre/lib/security/nss.cfg
+/etc/alternatives/java_sdk_openjdk/jre/lib/amd64/jvm.cfg
+/etc/alternatives/java_sdk_openjdk/jre/lib/security/nss.cfg
+/etc/alternatives/jre/lib/amd64/jvm.cfg
+/etc/alternatives/jre/lib/security/nss.cfg
+/etc/alternatives/jre_1.8.0/lib/amd64/jvm.cfg
+/etc/alternatives/jre_1.8.0/lib/security/nss.cfg
+/etc/alternatives/jre_1.8.0_exports/lib/amd64/jvm.cfg
+/etc/alternatives/jre_1.8.0_exports/lib/security/nss.cfg
+/etc/alternatives/jre_1.8.0_openjdk/lib/amd64/jvm.cfg
+/etc/alternatives/jre_1.8.0_openjdk/lib/security/nss.cfg
+/etc/alternatives/jre_openjdk/lib/amd64/jvm.cfg
+/etc/alternatives/jre_openjdk/lib/security/java.policy
+/etc/alternatives/jre_openjdk/lib/security/nss.cfg
+/etc/alternatives/jre_openjdk_exports/lib/amd64/jvm.cfg
+/etc/alternatives/jre_openjdk_exports/lib/security/nss.cfg
+/etc/anacrontab
+/etc/asound.conf
+/etc/audisp/audispd.conf
+/etc/audit/audit-stop.rules
+/etc/audit/audit.rules
+/etc/audit/auditd.conf
+/etc/authselect/user-nsswitch.conf
+/etc/bashrc
+/etc/binfmt.d/kshcomp.conf
+/etc/crontab
+/etc/crypto-policies/back-ends/.config/back-ends/DEFAULT/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/DEFAULT/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/DEFAULT/opensslcnf.config
+/etc/crypto-policies/back-ends/.config/back-ends/FIPS/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/FIPS/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/FIPS/opensslcnf.config
+/etc/crypto-policies/back-ends/.config/back-ends/FUTURE/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/FUTURE/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/FUTURE/opensslcnf.config
+/etc/crypto-policies/back-ends/.config/back-ends/LEGACY/opensshserver.config
+/etc/crypto-policies/back-ends/.config/back-ends/LEGACY/openssl.config
+/etc/crypto-policies/back-ends/.config/back-ends/LEGACY/opensslcnf.config
+/etc/crypto-policies/back-ends/opensshserver.config
+/etc/crypto-policies/back-ends/openssl.config
+/etc/crypto-policies/back-ends/opensslcnf.config
+/etc/crypto-policies/config
+/etc/csh.cshrc
+/etc/csh.login
+/etc/dbus-1/session.conf
+/etc/dbus-1/system.conf
+/etc/dbus-1/system.d/com.redhat.RHSM1.Facts.conf
+/etc/dbus-1/system.d/com.redhat.RHSM1.conf
+/etc/dbus-1/system.d/com.redhat.SubscriptionManager.conf
+/etc/dbus-1/system.d/org.freedesktop.hostname1.conf
+/etc/dbus-1/system.d/org.freedesktop.import1.conf
+/etc/dbus-1/system.d/org.freedesktop.locale1.conf
+/etc/dbus-1/system.d/org.freedesktop.login1.conf
+/etc/dbus-1/system.d/org.freedesktop.machine1.conf
+/etc/dbus-1/system.d/org.freedesktop.systemd1.conf
+/etc/dbus-1/system.d/org.freedesktop.timedate1.conf
+/etc/dbus-1/system.d/teamd.conf
+/etc/depmod.d/dist.conf
+/etc/dnf/plugins/copr.conf
+/etc/dnf/plugins/debuginfo-install.conf
+/etc/dnf/plugins/product-id.conf
+/etc/dnf/plugins/subscription-manager.conf
+/etc/dnf/protected.d/dnf.conf
+/etc/dnf/protected.d/setup.conf
+/etc/dnf/protected.d/yum.conf
+/etc/dracut.conf
+/etc/e2fsck.conf
+/etc/firewalld/firewalld.conf
+/etc/fstab
+/etc/fuse.conf
+/etc/fwupd/remotes.d/lvfs-testing.conf
+/etc/grub2-efi.cfg
+/etc/grub2.cfg
+/etc/host.conf
+/etc/inittab
+/etc/insights-client/insights-client.conf
+/etc/kdump.conf
+/etc/krb5.conf
+/etc/kshrc
+/etc/ld.so.conf
+/etc/ld.so.conf.d/bind-export-x86_64.conf
+/etc/ld.so.conf.d/kernel-3.10.0-1160.105.1.el7.x86_64.conf
+/etc/ld.so.conf.d/kernel-3.10.0-1160.80.1.el7.x86_64.conf
+/etc/ld.so.conf.d/kernel-3.10.0-1160.el7.x86_64.conf
+/etc/ld.so.conf.d/kernel-4.18.0-553.27.1.el8_10.x86_64.conf
+/etc/ld.so.conf.d/mariadb-x86_64.conf
+/etc/libaudit.conf
+/etc/libblockdev/conf.d/00-default.cfg
+/etc/libreport/events.d/collect_dnf.conf
+/etc/libssh/libssh_client.config
+/etc/libssh/libssh_server.config
+/etc/libuser.conf
+/etc/locale.conf
+/etc/logrotate.conf
+/etc/lvm/lvm.conf
+/etc/lvm/lvmlocal.conf
+/etc/lvm/profile/cache-mq.profile
+/etc/lvm/profile/cache-smq.profile
+/etc/lvm/profile/lvmdbusd.profile
+/etc/lvm/profile/thin-generic.profile
+/etc/lvm/profile/thin-performance.profile
+/etc/man_db.conf
+/etc/mke2fs.conf
+/etc/modprobe.d/CIS.conf
+/etc/modprobe.d/dccp-blacklist.conf
+/etc/modprobe.d/firewalld-sysctls.conf
+/etc/modprobe.d/mlx4.conf
+/etc/modprobe.d/tuned.conf
+/etc/my.cnf
+/etc/netconfig
+/etc/nsswitch.conf
+/etc/ntp.conf
+/etc/openldap/ldap.conf
+/etc/opt/CARKpsmp/conf/basic_psmpserver.conf
+/etc/opt/pta/ag/params.conf
+/etc/opt/pta/ag/send_json.conf
+/etc/opt/pta/diamond-resources/Vault.ini
+/etc/opt/pta/tomcat/catalina.policy
+/etc/pki/ca-trust/ca-legacy.conf
+/etc/pki/nss-legacy/nss-rhel7.config
+/etc/plymouth/plymouthd.conf
+/etc/polkit-1/rules.d/49-polkit-pkla-compat.rules
+/etc/polkit-1/rules.d/50-default.rules
+/etc/postfix/dynamicmaps.cf
+/etc/postfix/main.cf
+/etc/postfix/master.cf
+/etc/prelink.conf.d/fipscheck.conf
+/etc/prelink.conf.d/grub2.conf
+/etc/prelink.conf.d/nss-softokn-prelink.conf
+/etc/python/cert-verification.cfg
+/etc/rdma/mlx4.conf
+/etc/resolv.conf
+/etc/rhsm/logging.conf
+/etc/rhsm/rhsm.conf
+/etc/rsyncd.conf
+/etc/rsyslog.conf
+/etc/rsyslog.d/listen.conf
+/etc/rwtab
+/etc/sasl2/smtpd.conf
+/etc/security/access.conf
+/etc/security/chroot.conf
+/etc/security/faillock.conf
+/etc/security/group.conf
+/etc/security/limits.conf
+/etc/security/namespace.conf
+/etc/security/namespace.init
+/etc/security/pam_env.conf
+/etc/security/pwhistory.conf
+/etc/security/sepermit.conf
+/etc/security/time.conf
+/etc/selinux/config
+/etc/selinux/semanage.conf
+/etc/sestatus.conf
+/etc/skel/.bashrc
+/etc/skel/.kshrc
+/etc/snmp/snmpd.conf
+/etc/snmp/snmptrapd.conf
+/etc/ssh/sshd_config
+/etc/statetab
+/etc/sudo-ldap.conf
+/etc/sudo.conf
+/etc/sysconfig/authconfig
+/etc/sysconfig/ebtables-config
+/etc/sysconfig/ip6tables-config
+/etc/sysconfig/iptables-config
+/etc/sysconfig/nftables.conf
+/etc/sysctl.conf
+/etc/systemd/bootchart.conf
+/etc/systemd/coredump.conf
+/etc/systemd/journald.conf
+/etc/systemd/logind.conf
+/etc/systemd/pstore.conf
+/etc/systemd/resolved.conf
+/etc/systemd/system.conf
+/etc/systemd/user.conf
+/etc/tcsd.conf
+/etc/tuned/tuned-main.conf
+/etc/udev/udev.conf
+/etc/udisks2/udisks2.conf
+/etc/vconsole.conf
+/etc/vmware-tools/vgauth.conf
+/etc/wpa_supplicant/wpa_supplicant.conf
+/etc/yum.conf
+/etc/yum/pluginconf.d/copr.conf
+/etc/yum/pluginconf.d/debuginfo-install.conf
+/etc/yum/pluginconf.d/product-id.conf
+/etc/yum/pluginconf.d/search-disabled-repos.conf
+/etc/yum/pluginconf.d/subscription-manager.conf
+/etc/yum/protected.d/dnf.conf
+/etc/yum/protected.d/setup.conf
+/etc/yum/protected.d/systemd.conf
+/etc/yum/protected.d/yum.conf
+/etc/yum/version-groups.conf
+/etc/zabbix/zabbix_agentd.conf
+/home/infra/.bash_history
+/home/t24usr/.bash_history
+/home/vascan/.bash_history
+/opt/splunk/var/log/splunk/notable_modalert.log
+/opt/splunk/var/log/splunk/risk_modalert.log
+/opt/splunk/var/log/splunk/threat_add_modalert.log
+/root/.bash_history
+/var/log/anaconda/X.log
+/var/log/anaconda/anaconda.log
+/var/log/anaconda/dbus.log
+/var/log/anaconda/dnf.librepo.log
+/var/log/anaconda/hawkey.log
+/var/log/anaconda/ifcfg.log
+/var/log/anaconda/journal.log
+/var/log/anaconda/lvm.log
+/var/log/anaconda/packaging.log
+/var/log/anaconda/program.log
+/var/log/anaconda/storage.log
+/var/log/anaconda/syslog
+/var/log/audit/audit.log
+/var/log/audit/audit.log.1
+/var/log/audit/audit.log.2
+/var/log/audit/audit.log.3
+/var/log/audit/audit.log.4
+/var/log/boot.log-20220922
+/var/log/boot.log-20241129
+/var/log/boot.log-20241210
+/var/log/boot.log-20250211
+/var/log/boot.log-20250323
+/var/log/boot.log-20250531
+/var/log/boot.log-20250625
+/var/log/boot.log-20250627
+/var/log/cron
+/var/log/dmesg
+/var/log/dnf.librepo.log
+/var/log/dnf.librepo.log.1
+/var/log/dnf.librepo.log.2
+/var/log/dnf.librepo.log.3
+/var/log/dnf.log
+/var/log/dnf.log.1
+/var/log/dnf.log.2
+/var/log/dnf.log.3
+/var/log/dnf.log.4
+/var/log/dnf.rpm.log
+/var/log/hawkey.log
+/var/log/hawkey.log-20250824
+/var/log/hawkey.log-20250831
+/var/log/hawkey.log-20250907
+/var/log/hawkey.log-20250914
+/var/log/kdump.log
+/var/log/messages
+/var/log/messages-20250824
+/var/log/messages-20250831
+/var/log/messages-20250907
+/var/log/messages-20250914
+/var/log/messages-20250921
+/var/log/pta/activemq/activemq.log
+/var/log/pta/ag/install.log
+/var/log/pta/ag/send_json_all.log
+/var/log/pta/ag/send_json_all.log.1
+/var/log/pta/ag/send_json_all.log.2
+/var/log/pta/ag/send_json_all.log.3
+/var/log/pta/ag/send_json_all.log.4
+/var/log/pta/ag/send_json_all.log.5
+/var/log/pta/app/archive/diamond-1.log.gz
+/var/log/pta/app/archive/diamond-10.log.gz
+/var/log/pta/app/archive/diamond-11.log.gz
+/var/log/pta/app/archive/diamond-12.log.gz
+/var/log/pta/app/archive/diamond-13.log.gz
+/var/log/pta/app/archive/diamond-14.log.gz
+/var/log/pta/app/archive/diamond-15.log.gz
+/var/log/pta/app/archive/diamond-16.log.gz
+/var/log/pta/app/archive/diamond-17.log.gz
+/var/log/pta/app/archive/diamond-18.log.gz
+/var/log/pta/app/archive/diamond-19.log.gz
+/var/log/pta/app/archive/diamond-2.log.gz
+/var/log/pta/app/archive/diamond-20.log.gz
+/var/log/pta/app/archive/diamond-21.log.gz
+/var/log/pta/app/archive/diamond-22.log.gz
+/var/log/pta/app/archive/diamond-23.log.gz
+/var/log/pta/app/archive/diamond-24.log.gz
+/var/log/pta/app/archive/diamond-25.log.gz
+/var/log/pta/app/archive/diamond-26.log.gz
+/var/log/pta/app/archive/diamond-27.log.gz
+/var/log/pta/app/archive/diamond-28.log.gz
+/var/log/pta/app/archive/diamond-29.log.gz
+/var/log/pta/app/archive/diamond-3.log.gz
+/var/log/pta/app/archive/diamond-30.log.gz
+/var/log/pta/app/archive/diamond-31.log.gz
+/var/log/pta/app/archive/diamond-32.log.gz
+/var/log/pta/app/archive/diamond-33.log.gz
+/var/log/pta/app/archive/diamond-34.log.gz
+/var/log/pta/app/archive/diamond-35.log.gz
+/var/log/pta/app/archive/diamond-36.log.gz
+/var/log/pta/app/archive/diamond-37.log.gz
+/var/log/pta/app/archive/diamond-38.log.gz
+/var/log/pta/app/archive/diamond-39.log.gz
+/var/log/pta/app/archive/diamond-4.log.gz
+/var/log/pta/app/archive/diamond-40.log.gz
+/var/log/pta/app/archive/diamond-41.log.gz
+/var/log/pta/app/archive/diamond-42.log.gz
+/var/log/pta/app/archive/diamond-43.log.gz
+/var/log/pta/app/archive/diamond-44.log.gz
+/var/log/pta/app/archive/diamond-45.log.gz
+/var/log/pta/app/archive/diamond-46.log.gz
+/var/log/pta/app/archive/diamond-47.log.gz
+/var/log/pta/app/archive/diamond-48.log.gz
+/var/log/pta/app/archive/diamond-49.log.gz
+/var/log/pta/app/archive/diamond-5.log.gz
+/var/log/pta/app/archive/diamond-50.log.gz
+/var/log/pta/app/archive/diamond-51.log.gz
+/var/log/pta/app/archive/diamond-52.log.gz
+/var/log/pta/app/archive/diamond-53.log.gz
+/var/log/pta/app/archive/diamond-54.log.gz
+/var/log/pta/app/archive/diamond-55.log.gz
+/var/log/pta/app/archive/diamond-56.log.gz
+/var/log/pta/app/archive/diamond-57.log.gz
+/var/log/pta/app/archive/diamond-58.log.gz
+/var/log/pta/app/archive/diamond-59.log.gz
+/var/log/pta/app/archive/diamond-6.log.gz
+/var/log/pta/app/archive/diamond-60.log.gz
+/var/log/pta/app/archive/diamond-61.log.gz
+/var/log/pta/app/archive/diamond-62.log.gz
+/var/log/pta/app/archive/diamond-63.log.gz
+/var/log/pta/app/archive/diamond-64.log.gz
+/var/log/pta/app/archive/diamond-65.log.gz
+/var/log/pta/app/archive/diamond-66.log.gz
+/var/log/pta/app/archive/diamond-67.log.gz
+/var/log/pta/app/archive/diamond-68.log.gz
+/var/log/pta/app/archive/diamond-69.log.gz
+/var/log/pta/app/archive/diamond-7.log.gz
+/var/log/pta/app/archive/diamond-70.log.gz
+/var/log/pta/app/archive/diamond-71.log.gz
+/var/log/pta/app/archive/diamond-72.log.gz
+/var/log/pta/app/archive/diamond-73.log.gz
+/var/log/pta/app/archive/diamond-74.log.gz
+/var/log/pta/app/archive/diamond-75.log.gz
+/var/log/pta/app/archive/diamond-76.log.gz
+/var/log/pta/app/archive/diamond-77.log.gz
+/var/log/pta/app/archive/diamond-78.log.gz
+/var/log/pta/app/archive/diamond-79.log.gz
+/var/log/pta/app/archive/diamond-8.log.gz
+/var/log/pta/app/archive/diamond-80.log.gz
+/var/log/pta/app/archive/diamond-81.log.gz
+/var/log/pta/app/archive/diamond-82.log.gz
+/var/log/pta/app/archive/diamond-83.log.gz
+/var/log/pta/app/archive/diamond-84.log.gz
+/var/log/pta/app/archive/diamond-85.log.gz
+/var/log/pta/app/archive/diamond-86.log.gz
+/var/log/pta/app/archive/diamond-87.log.gz
+/var/log/pta/app/archive/diamond-88.log.gz
+/var/log/pta/app/archive/diamond-89.log.gz
+/var/log/pta/app/archive/diamond-9.log.gz
+/var/log/pta/app/archive/diamond-90.log.gz
+/var/log/pta/app/archive/diamond-91.log.gz
+/var/log/pta/app/catalina.2025-09-12.log
+/var/log/pta/app/catalina.2025-09-15.log
+/var/log/pta/app/catalina.out
+/var/log/pta/app/diamond.log
+/var/log/pta/app/installer-webapp.log
+/var/log/pta/app/localhost.2025-09-12.log
+/var/log/pta/app/localhost.2025-09-15.log
+/var/log/pta/app/upgrade_history.log
+/var/log/pta/casosServices/casosservices.log
+/var/log/pta/mongodb/mongod.log
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-26-06
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-26-30
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-28-56
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-40-40
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-22
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-41
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-50
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-44-57
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-45-12
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-45-28
+/var/log/pta/mongodb/mongod.log.2022-09-13T03-47-06
+/var/log/pta/mongodb/mongod.log.2022-09-13T04-00-12
+/var/log/pta/mongodb/mongod.log.2022-09-21T09-18-52
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-18
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-27
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-34
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-41
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-01-55
+/var/log/pta/mongodb/mongod.log.2022-09-21T12-03-25
+/var/log/pta/mongodb/mongod.log.2022-09-27T04-56-17
+/var/log/pta/mongodb/mongod.log.2022-09-27T07-50-40
+/var/log/pta/mongodb/mongod.log.2022-09-27T08-27-15
+/var/log/pta/mongodb/mongod.log.2022-09-27T08-31-13
+/var/log/pta/mongodb/mongod.log.2022-09-27T08-34-35
+/var/log/pta/mongodb/mongod.log.2022-09-27T09-04-39
+/var/log/pta/mongodb/mongod.log.2022-11-11T04-04-19
+/var/log/pta/mongodb/mongod.log.2022-11-11T04-07-29
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-58-32
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-58-49
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-58-58
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-59-04
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-59-16
+/var/log/pta/mongodb/mongod.log.2022-11-18T08-59-32
+/var/log/pta/mongodb/mongod.log.2022-11-18T09-00-42
+/var/log/pta/mongodb/mongod.log.2023-11-14T02-56-43
+/var/log/pta/mongodb/mongod.log.2023-11-15T09-39-50
+/var/log/pta/mongodb/mongod.log.2023-11-30T03-26-57
+/var/log/pta/mongodb/mongod.log.2024-01-19T18-34-28
+/var/log/pta/mongodb/mongod.log.2025-09-12T08-43-21
+/var/log/pta/mongodb/mongod.log.2025-09-15T06-15-27
+/var/log/pta/mongodb/mongod.log.2025-09-15T06-44-20
+/var/log/pta/monitoring/mongodb_exporter.log
+/var/log/pta/monitoring/node_exporter.log
+/var/log/pta/monitoring/prometheus.log
+/var/log/pta/monitoring/pushgateway.log
+/var/log/pta/prepwiz/prepwiz.log
+/var/log/pta/statistics/statistics-1.log.gz
+/var/log/pta/statistics/statistics-2.log.gz
+/var/log/pta/statistics/statistics-3.log.gz
+/var/log/pta/statistics/statistics-4.log.gz
+/var/log/pta/statistics/statistics-5.log.gz
+/var/log/pta/statistics/statistics.log
+/var/log/pta/utility/diamond-utility.log
+/var/log/pta_installer_service.log
+/var/log/rhsm/rhsm.log
+/var/log/rhsm/rhsm.log-20250824
+/var/log/rhsm/rhsm.log-20250831
+/var/log/rhsm/rhsm.log-20250907
+/var/log/rhsm/rhsm.log-20250914
+/var/log/rhsm/rhsmcertd.log
+/var/log/rhsm/rhsmcertd.log-20250824
+/var/log/rhsm/rhsmcertd.log-20250831
+/var/log/rhsm/rhsmcertd.log-20250907
+/var/log/rhsm/rhsmcertd.log-20250914
+/var/log/secure
+/var/log/secure-20250824
+/var/log/secure-20250831
+/var/log/secure-20250907
+/var/log/secure-20250914
+/var/log/sssd/sssd.log-20241110
+/var/log/sssd/sssd_implicit_files.log-20241110
+/var/log/sssd/sssd_nss.log-20241110
+/var/log/tomcat/catalina.2024-01-19.log
+/var/log/tuned/tuned.log
+/var/log/vmware-network.1.log
+/var/log/vmware-network.2.log
+/var/log/vmware-network.3.log
+/var/log/vmware-network.4.log
+/var/log/vmware-network.5.log
+/var/log/vmware-network.6.log
+/var/log/vmware-network.7.log
+/var/log/vmware-network.8.log
+/var/log/vmware-network.9.log
+/var/log/vmware-network.log
+/var/log/vmware-vgauthsvc.log.0
+/var/log/vmware-vmsvc-root.log
+/var/log/vmware-vmtoolsd-root.log
+/var/log/yum.log-20230101
+/var/log/yum.log-20240101
+/var/log/yum.log-20250101
+/var/log/zabbix/zabbix_agentd.log-20230820.gz
+/var/log/zabbix/zabbix_agentd.log-20230909.gz
+/var/log/zabbix/zabbix_agentd.log-20230927.gz
+/var/log/zabbix/zabbix_agentd.log-20231011.gz
+/var/log/zabbix/zabbix_agentd.log-20231031.gz
+/var/log/zabbix/zabbix_agentd.log-20231114.gz
+/var/log/zabbix/zabbix_agentd.log-20231119.gz
+/var/log/zabbix/zabbix_agentd.log-20231126.gz
+/var/log/zabbix/zabbix_agentd.log-20231203.gz
+/var/log/zabbix/zabbix_agentd.log-20240120
+/var/log/zabbix/zabbix_agentd.log-20240825.gz
+/var/log/zabbix/zabbix_agentd.log-20240916.gz
+/var/log/zabbix/zabbix_agentd.log-20241007.gz
+/var/log/zabbix/zabbix_agentd.log-20241030.gz
+/var/log/zabbix/zabbix_agentd.log-20241113.gz
+/var/log/zabbix/zabbix_agentd.log-20241121.gz
+/var/log/zabbix/zabbix_agentd.log-20241124.gz
+/var/log/zabbix/zabbix_agentd.log-20241205.gz
+/var/log/zabbix/zabbix_agentd.log-20241212.gz
+/var/log/zabbix/zabbix_agentd.log-20250102.gz
+/var/log/zabbix/zabbix_agentd.log-20250103.gz
+/var/log/zabbix/zabbix_agentd.log-20250105.gz
+/var/log/zabbix/zabbix_agentd.log-20250126.gz
+/var/log/zabbix/zabbix_agentd.log-20250202.gz
+/var/log/zabbix/zabbix_agentd.log-20250205.gz
+/var/log/zabbix/zabbix_agentd.log-20250209.gz
+/var/log/zabbix/zabbix_agentd.log-20250329.gz
+/var/log/zabbix/zabbix_agentd.log-20250405
+/var/log/zabbix/zabbix_agentd.log-20250405.gz
+/var/log/zabbix/zabbix_agentd.log-20250704
+Access - Brute Force Access Behavior Detected Over 1d - Rule
+Access - iBank SPL #ACC52531 - Suspicious Login to Windows Server/Workstation - Rule
+ActiveDirectory
+Audit - Managed Lookups Size - Summary Gen
+Audit - iBank SPL #AUD52481 - Device stopped sending logs - Rule
+Audit - iBank SPL #OPS52243 - Network Device Configuration Change Detected - Rule
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025071603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025081208-4.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090515-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090516-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090517-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090518-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090519-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090520-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090521-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090522-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090523-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090600-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090601-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090602-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090603-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090604-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090605-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090607-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090608-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025090608-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092108-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092108-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092109-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092110-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092111-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092112-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092113-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092114-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092115-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092116-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092117-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092118-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092119-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092120-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092121-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092122-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092123-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092200-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092201-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092202-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092203-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092204-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092205-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092206-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092207-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092208-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092209-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092210-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092211-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092212-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092213-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092214-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092215-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092216-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092217-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092218-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092219-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092220-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092221-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092222-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092223-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092300-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092301-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092302-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092303-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092304-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092305-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\Ews\Ews_2025092306-2.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025090608-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092108-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\Logging\RPC Client Access\RCA_2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090603-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092108-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRK2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090515-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090517-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090518-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090519-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090520-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090521-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090522-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090523-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090600-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090602-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090605-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090606-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025090607-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092110-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092111-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092112-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092113-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092114-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092117-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092119-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092120-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092121-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092201-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092202-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092210-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092211-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092213-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092214-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092215-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092217-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092219-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092220-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092221-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092222-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092300-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092301-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092302-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092304-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092305-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMD2025092306-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090516-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090601-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090604-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025090608-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092109-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092115-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092116-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092118-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092122-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092123-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092200-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092203-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092204-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092205-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092206-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092207-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092208-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092209-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092212-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092216-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092218-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092223-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092303-1.LOG
+C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\MessageTracking\MSGTRKMS2025092304-1.LOG
+C:\Program Files\SplunkUniversalForwarder\var\log\Splunk_TA_windows\WindowsUpdate.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250905.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250906.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250921.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250922.log
+C:\inetpub\logs\LogFiles\W3SVC1\u_ex250923.log
+ESCU - Detect Excessive Account Lockouts From Endpoint - Rule
+Endpoint - Index Time Delta 2 - Summary Gen
+Linux:SELinuxConfig
+Network - iBank SPL #IDS52301 - SMB outbound traffic detected - Rule
+Network - iBank SPL #NET52201 - Internal Network Scanning Detection - Rule
+Network - iBank SPL #NET52203 - External Network Scanning Detection - Rule
+Network - iBank SPL #OPS52242 - Dormant firewall rule triggered - Rule
+Perfmon:ASP_NET
+Perfmon:ActiveSync
+Perfmon:Available_Memory
+Perfmon:DotNET_CLR_Memory
+Perfmon:MRM_Assistants_2013
+Perfmon:MRM_Counters_2013
+Perfmon:MSExchangeAutodiscover
+Perfmon:MSExchangeIS_Client_2013
+Perfmon:MSExchangeIS_Store
+Perfmon:MSExchangeWS
+Perfmon:MSExchange_ADAccess_Processes
+Perfmon:MSExchange_Assistants_Per_Assistant
+Perfmon:MSExchange_Assistants_Per_DB
+Perfmon:MSExchange_Availability_Service
+Perfmon:MSExchange_Calendarattendant
+Perfmon:MSExchange_Control_Panel
+Perfmon:MSExchange_Database_2013
+Perfmon:MSExchange_Database_Edge_Transport
+Perfmon:MSExchange_Database_Instances_2013
+Perfmon:MSExchange_Database_NoInstances
+Perfmon:MSExchange_Queue_Lengths
+Perfmon:MSExchange_Replication
+Perfmon:MSExchange_Resourcebooking
+Perfmon:MSExchange_RpcClientAccess
+Perfmon:MSExchange_SmtpReceive
+Perfmon:MSExchange_SmtpSend
+Perfmon:MSExchange_Store_Interface
+Perfmon:MSExchange_Store_Interface_Total
+Perfmon:MSExchange_Throttling_2013
+Perfmon:Network_Utilization
+Perfmon:OWA
+Perfmon:RPC_HTTP_Proxy
+Perfmon:TCPv4
+Perfmon:TCPv6
+Perfmon:Total_Processor_Time
+Perfmon:Web_Service
+PerfmonMk:CPU
+PerfmonMk:DFS_Replicated_Folders
+PerfmonMk:DNS
+PerfmonMk:LogicalDisk
+PerfmonMk:Memory
+PerfmonMk:NTDS
+PerfmonMk:Network
+PerfmonMk:Network_Interface
+PerfmonMk:PhysicalDisk
+PerfmonMk:Process
+PerfmonMk:Processor
+PerfmonMk:ProcessorInformation
+PerfmonMk:System
+Powershell
+Threat - Threat List Activity - Rule
+Threat - iBank SPL #NET52471 - Web Content Discovery Detected - Rule
+Threat - iBank SPL #THR24701 - Potential Active Directory Lateral Movement - Rule
+Unix:ListeningPorts
+Unix:SSHDConfig
+Unix:Service
+Unix:Update
+Unix:Uptime
+Unix:UserAccounts
+Unix:Version
+WinRegistry
+XmlWinEventLog:Application
+XmlWinEventLog:DNS Server
+XmlWinEventLog:Directory Service
+XmlWinEventLog:Security
+XmlWinEventLog:System
+auditd
+bandwidth
+computer
+cpu
+default_is4s_ssef_daily_group
+default_is4s_ssef_hourly_group
+default_is4s_ssef_weekly_group
+df
+disk
+driver
+hardware
+interfaces
+iostat
+lastlog
+lsof
+missioncontrol
+netstat
+networkadapter
+openPorts
+operatingsystem
+package
+powershell://generate_windows_update_logs
+printer
+process
+processes
+processor
+protocol
+ps
+roles
+sc4s
+service
+services
+summary_accelerated_data_models
+summary_alerts_failing_to_trigger
+summary_average_daily_scheduled_searches
+summary_average_daily_searches
+summary_average_daily_searches_distinct
+summary_average_ingest
+summary_blocked_queues_on_indexers
+summary_bucket_replication_issues
+summary_components_throwing_issues_in_the_logs
+summary_dashboards_with_high_memory_and_runtime
+summary_data_balance_across_splunk_servers
+summary_data_model_constrained_by_indexes
+summary_deployment_server_errors
+summary_distinct_data_sources
+summary_efs_kpis
+summary_high_cpu_usage_across_splunk_ecosystem
+summary_hosts_with_large_bundles
+summary_incoming_networking_errors
+summary_index_clustering_issues
+summary_indexers_reaching_disk_capacity
+summary_indexers_throttling_forwarders
+summary_inefficient_dashboard_panels
+summary_issue_reading_events_that_originated_via_hec
+summary_long_running_searches
+summary_number_of_forwarders
+summary_number_of_indexers
+summary_number_of_search_heads
+summary_outgoing_networking_errors
+summary_search_head_cluster_warnings_and_errors
+summary_searches_returning_no_results_improperly
+summary_searches_that_used_tstats
+summary_searches_with_high_memory_use
+summary_skipped_searches
+summary_sourcetypes_with_onboarding_issues
+summary_total_number_of_dashboards
+summary_total_search_concurrency
+summary_user_hitting_limits_on_search
+summary_users_exceeding_the_disk_quota_or_concurrency_quota
+threatmatch://dest
+threatmatch://src
+time
+top
+usersWithLoginPrivs
+vmstat
+who

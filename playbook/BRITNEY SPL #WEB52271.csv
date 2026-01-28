@@ -1,0 +1,29 @@
+﻿#,Phase,Phase description,Detail actions
+1,Detect handling,Change the status of Mission Control findings from 'New' to 'In Progress',"- Go to Splunk Enterprise Security > Mission Control
+- Group all related Findings into one Investigation (based on trigger time)
+- Change the status of Mission Control findings and investigation from 'New' to 'In Progress'"
+2,Validate detection,Identify whether the detection is False/True Positive,"- Check source IP threat intelligence (VirusTotal, AbuseDB): if the IP is flagged as malicious, classify it as True Positive - suspicious activity. 
+- If not malicious, it could be a penetration test or other activity. In such cases, consult with the team to confirm before finalizing the event type."
+3,Investigate,Collect additional data to analyze impacts, threats, risks,"- Step 1: Use a browser to access http_host/path_payload
++ If the result is block/page not found/... → attack failed → continue next steps for summary.
++ If the result is different from block/page not found/...:
+   # Based on the payload, check if sensitive information is at risk of exposure (e.g., /etc/passwd, config.php, C:\Windows\win.ini,...). Run this search to list all related payloads:
+         index=* source=sc4s http_host=""<http_host>""
+         |table http_host http_url http_retcode
+         |dedup http_url
+   # Review payload details in the browser → search in Splunk for related events
+   => Immediately escalate this case to Level 1.5
+Note: Guest network is blocked from Britney’s sites. Switch to another network for testing if on Guest.
+
+- Step 2: Check for any detection with the source IP in notable events (all time). Verify if the src_ip was involved in other activities:
+         index=notable src_ip=""<src_ip>""
+
+- Step 3: Check if the src_ip performed any other actions, successful or not (incomplete/not applicable):
+         index=* ""<src_ip>""
+         |table app server_ip action"
+4,Respond,Request system owner's confirmation or action,"- Contact system owner to request verification or action if needed. 
+- If the attack result shows something dangerous, escalate and request client action. If everything is clear, skip this step."
+5,Follow-up actions,Follow up actions to close findings,"- Document investigation result in Mission Control investigation
+- Reply on Teams: include status (can close immediately if no issues), event type, summary (record threat intelligence results, payload test results, past attacks if any, and impact if payload succeeded → actions). 
+Note: attach evidence screenshots for each conclusion."
+6,Post incident,Review & improve detection if needed,"- Tune alert rules if necessary"

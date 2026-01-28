@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Smart Investigation Architecture">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Flask Web Application -->
+        <mxCell id="web" value="Flask Web Application" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="520" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="dash" value="Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="web">
+          <mxGeometry x="20" y="50" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="alert" value="Alert Detail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="web">
+          <mxGeometry x="150" y="50" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="chat" value="Chat API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="web">
+          <mxGeometry x="280" y="50" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="invest" value="Investigation API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="web">
+          <mxGeometry x="410" y="50" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Layer -->
+        <mxCell id="agents" value="Agent Layer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="600" height="140" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="sup" value="Supervisor Agent&#10;Ollama Qwen3:8b&#10;RAG Context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="agents">
+          <mxGeometry x="30" y="50" width="170" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="spl" value="SPL Generator Agent&#10;Ollama Qwen2.5:3b&#10;RAG Context" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="agents">
+          <mxGeometry x="215" y="50" width="200" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="play" value="Playbook Runner Agent&#10;API Call Tool&#10;Playbook Parser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="agents">
+          <mxGeometry x="430" y="50" width="170" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- RAG System -->
+        <mxCell id="rag" value="RAG System (ChromaDB)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="640" height="200" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="k1" value="supervisor_knowledge&#10;MITRE ATT&amp;CK&#10;Windows Event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rag">
+          <mxGeometry x="30" y="50" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="k2" value="spl_knowledge&#10;SPL Commands&#10;Detection Rules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rag">
+          <mxGeometry x="230" y="50" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="k3" value="playbook_knowledge&#10;Threat Intel&#10;API Guides" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rag">
+          <mxGeometry x="430" y="50" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="k4" value="alert_research&#10;Splunk Research Descriptions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="rag">
+          <mxGeometry x="150" y="140" width="340" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- External Services -->
+        <mxCell id="ext" value="External Threat Intelligence Services" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="520" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="vt" value="VirusTotal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ext">
+          <mxGeometry x="20" y="40" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ab" value="AbuseIPDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ext">
+          <mxGeometry x="150" y="40" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="sh" value="Shodan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ext">
+          <mxGeometry x="280" y="40" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="otx" value="AlienVault OTX" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ext">
+          <mxGeometry x="410" y="40" width="110" height="40" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

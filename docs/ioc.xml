@@ -1,0 +1,102 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Threat Intelligence Enrichment Flow">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1"
+                  tooltips="1" connect="1" arrows="1" fold="1"
+                  page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Alert JSON -->
+        <mxCell id="alert"
+                value="Alert JSON&#10;&#10;{&#10;  &quot;src_ip&quot;: &quot;8.8.8.8&quot;,&#10;  &quot;hash&quot;: &quot;a1b2c3...&quot;&#10;}"
+                style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;"
+                vertex="1" parent="1">
+          <mxGeometry x="250" y="20" width="320" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- IOC Extraction -->
+        <mxCell id="ioc"
+                value="IOC Extraction&#10;&#10;• Filter Public IPs&#10;• Extract File Hashes&#10;• Parse URLs &amp; Domains"
+                style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;"
+                vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="360" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Threat Intel Box -->
+        <mxCell id="intel"
+                value="Threat Intelligence Enrichment"
+                style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;"
+                vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="580" height="240" as="geometry"/>
+        </mxCell>
+
+        <!-- VirusTotal -->
+        <mxCell id="vt"
+                value="VirusTotal&#10;&#10;• IP Reputation&#10;• Hash Scan&#10;• URL Check"
+                style="rounded=1;whiteSpace=wrap;html=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="150" y="380" width="160" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- AbuseIPDB -->
+        <mxCell id="abuse"
+                value="AbuseIPDB&#10;&#10;• Abuse Score&#10;• Report History&#10;• ISP / Geo"
+                style="rounded=1;whiteSpace=wrap;html=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="330" y="380" width="160" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- Shodan -->
+        <mxCell id="shodan"
+                value="Shodan (Optional)&#10;&#10;• Open Ports&#10;• Services&#10;• Banners"
+                style="rounded=1;whiteSpace=wrap;html=1;"
+                vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="160" height="140" as="geometry"/>
+        </mxCell>
+
+        <!-- Result Aggregation -->
+        <mxCell id="result"
+                value="Result Aggregation&#10;&#10;{&#10;  &quot;risk_score&quot;: 85,&#10;  &quot;verdict&quot;: &quot;High Risk&quot;,&#10;  &quot;iocs&quot;: {...}&#10;}"
+                style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;"
+                vertex="1" parent="1">
+          <mxGeometry x="200" y="620" width="420" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- Supervisor -->
+        <mxCell id="supervisor"
+                value="Supervisor Agent Analysis&#10;+ RAG Context&#10;&#10;Final Investigation Report"
+                style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;"
+                vertex="1" parent="1">
+          <mxGeometry x="230" y="820" width="360" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- Edges -->
+        <mxCell edge="1" parent="1" source="alert" target="ioc">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="ioc" target="intel">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="vt" target="result">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="abuse" target="result">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="shodan" target="result">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell edge="1" parent="1" source="result" target="supervisor">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

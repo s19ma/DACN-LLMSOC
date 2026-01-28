@@ -1,0 +1,41 @@
+﻿#,Phase,Phase description,Detail actions
+1,Detect handling,Change the status of Mission Control findings from 'New' to 'In Progress',"- Go to Splunk Enterprise Security > Mission Control
+- Group all related Findings into one Investigation (based on trigger time)
+- Change the status of Mission Control findings and investigation from 'New' to 'In Progress'"
+2,Validate detection,Identify whether the detection is False/True Positive,"- Check scanned port patterns
+- Check if the activity occurs at abnormal times"
+3,Investigate,Collect additional data to analyze impacts, threats, risks,"- Step 1: Run the following search to check whether the firewall rule name and opened ports are reasonable. For example:
++ Reasonable:
+# Firewall rule for web access allowing ports 80/443
+# Firewall rule for RDP allowing port 3389
+(*You can Google to validate whether the service in the firewall rule name matches the allowed port)
++ Not reasonable:
+# From one source to many destinations/ports, with increasing port numbers
+         index=netfw source=sc4s (""<src_ip in inline table>"" OR ""<ip>"" OR …) action=allowed 
+         |lookup firewall_policies_record _key AS rule OUTPUT policy_name
+         |table dest_port, rule policy_name
+         | dedup dest_port, rule
+
+- Step 2: Check if src_ip in the inline table has appeared in any previous alerts, see how many times it has scanned, and on which dates
+         (All time): 
+         index=notable  (""<ip>"" OR ""<ip>"" OR …) 
+         | table _time, Source_IP, src_ip, search_name
+
+- Step 3: Check other actions related to the source IP: review logs and fields to see if there are any activities beyond scanning (scan logs usually follow a similar pattern; if you see different logs, analyze carefully). If nothing abnormal, conclude that only scanning occurred.
+         (All time): 
+         index=* src=""<ip>"" OR src=""<ip>"" OR ...
+
+Conclusion:
+- If Step 1 detects unreasonable cases, this is suspicious behavior. Record information and report to the customer.
+
+Sample summary (adapted from external scanning but with similar info):
+Multiple source IPs were flagged as malicious in VirusTotal: 196.251.116.191 (1 previous scan), 104.156.155.5 (first time scan), 204.76.203.28 (9 previous scans), 197.233.20.149 (first time scan), 196.251.116.113 (1 previous scan).
+Traffic from these IPs was mostly allowed through port 443 due to existing firewall rule for web access, port 179 due to BGP routing rule, and port 25 due to Allow Public To Fortimail-Cloud rule.
+No evidence of exploitation or persistence was identified after the scans."
+4,Respond,Request system owner's confirmation or action,"- Contact system owner to request verification or action if needed
+- Document investigation result in Mission Control investigation
+- Reply on Teams: include status (can close immediately if no issues), event type, summary (record scan dates, ports used, rules involved, evidence of exploit if any, and actions taken if any). Note: attach screenshots as evidence for each conclusion."
+5,Follow-up actions,Follow up actions to close findings,"- Follow up on requested verification or action
+- Record source IP in knowledge base about client service to whitelist
+- Change the status of Mission Control findings and investigation to 'Closed'"
+6,Post incident,Review & improve detection if needed,"- Tune alert rules if necessary"

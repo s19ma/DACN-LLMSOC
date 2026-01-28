@@ -1,0 +1,171 @@
+<div class="card border-0 text-start" style="text-align: left !important;">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0"><i class="fas fa-shield-alt me-2"></i>Enhanced Security Alert Analysis</h5>
+        <small class="text-light">Alert ID: {{ alert_data['id']|e if alert_data and 'id' in alert_data else 'Unknown' }} • AI-Powered Assessment</small>
+    </div>
+    <div class="card-body text-start">
+        <!-- Alert Summary Section -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <h6 class="text-primary"><i class="fas fa-info-circle me-2"></i>Alert Summary</h6>
+                <table class="table table-sm table-borderless">
+                    <tr>
+                        <td class="fw-bold text-muted">Title:</td>
+                        <td>{{ alert_data['title']|e if alert_data and 'title' in alert_data else 'Unknown Alert' }}</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-muted">Severity:</td>
+                        <td><span class="badge bg-{{ severity_class }}">{{ alert_data['severity']|e if alert_data and 'severity' in alert_data else 'Medium' }}</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-muted">Status:</td>
+                        <td><span class="badge bg-{{ status_class }}">{{ alert_data['status']|e if alert_data and 'status' in alert_data else 'Open' }}</span></td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-muted">Source IP:</td>
+                        <td><code>{{ alert_data['src_ip']|e if alert_data and 'src_ip' in alert_data else (alert_data['source_ip']|e if alert_data and 'source_ip' in alert_data else 'Unknown') }}</code></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h6 class="text-danger"><i class="fas fa-exclamation-triangle me-2"></i>Risk Assessment</h6>
+                <div class="alert alert-{{ risk_class }} mb-3">
+                    <strong>{{ risk_assessment }}</strong>
+                </div>
+                <div class="progress mb-2" style="height: 20px;">
+                    <div class="progress-bar bg-{{ risk_class }}" role="progressbar" 
+                         style="width: {{ risk_percentage }}%"
+                         aria-valuenow="{{ risk_percentage }}" 
+                         aria-valuemin="0" aria-valuemax="100">
+                        {{ risk_percentage }}%
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Enhanced Threat Analysis Section with Re-analyze Button -->
+        <div class="mb-4">
+            <h6 class="text-warning"><i class="fas fa-search me-2"></i>Threat Analysis
+                <button id="reanalyze-btn" class="btn btn-sm btn-outline-primary ms-2" title="Re-analyze with AI" onclick="reanalyzeAlertStatus()">
+                    <i class="fas fa-sync-alt"></i> Re-analyze
+                </button>
+            </h6>
+            <div class="alert alert-light border-start border-warning border-4 ps-3">
+                <div class="mb-3">
+                    <strong>Quick Assessment Summary:</strong>
+                    <ul class="mb-2 mt-1" id="explanation-list">
+                        <li><strong>Alert:</strong> <span>{{ alert_data['title']|e if alert_data and 'title' in alert_data else 'Unknown Alert' }}</span> (Severity: <span>{{ alert_data['severity']|e if alert_data and 'severity' in alert_data else 'Unknown' }}</span>, Status: <span>{{ alert_data['status']|e if alert_data and 'status' in alert_data else 'N/A' }}</span>)</li>
+                        <li><strong>Source:</strong> IP <code>{{ alert_data['src_ip']|e if alert_data and 'src_ip' in alert_data else (alert_data['source_ip']|e if alert_data and 'source_ip' in alert_data else 'N/A') }}</code> / User <code>{{ alert_data['user']|e if alert_data and 'user' in alert_data else (alert_data['username']|e if alert_data and 'username' in alert_data else 'N/A') }}</code> → Target <code>{{ alert_data['dest_ip']|e if alert_data and 'dest_ip' in alert_data else (alert_data['destination_ip']|e if alert_data and 'destination_ip' in alert_data else 'N/A') }}</code></li>
+                        <li><strong>Time:</strong> {{ alert_data['timestamp']|e if alert_data and 'timestamp' in alert_data else 'N/A' }}</li>
+                        <li><strong>Threat Type:</strong> {{ threat_type }}</li>
+                        <li><strong>Risk Assessment:</strong> {{ risk_assessment }} ({{ risk_percentage }}%)</li>
+                        <li><strong>Behavior Pattern:</strong> {% if behavior_pattern and ('<' in behavior_pattern) and ('>' in behavior_pattern) %}{{ behavior_pattern|safe }}{% else %}{{ behavior_pattern|e }}{% endif %}</li>
+                        <li><strong>Impact:</strong> {% if impact_assessment and ('<' in impact_assessment) and ('>' in impact_assessment) %}{{ impact_assessment|safe }}{% else %}{{ impact_assessment|e }}{% endif %}</li>
+                        <li><strong>Threat Analysis:</strong> {% if threat_analysis and ('<' in threat_analysis) and ('>' in threat_analysis) %}{{ threat_analysis|safe }}{% else %}{{ threat_analysis|e }}{% endif %}</li>
+                    </ul>
+                    <div id="reanalyze-status" class="text-muted small mt-2"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+        function reanalyzeAlertStatus() {
+            const btn = document.getElementById('reanalyze-btn');
+            const statusDiv = document.getElementById('reanalyze-status');
+            btn.disabled = true;
+            statusDiv.textContent = 'Re-analyzing...';
+            fetch('/api/explain-status', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ alert_id: '{{ alert_data["id"] }}', reanalyze: true })
+            })
+            .then(resp => resp.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    // Replace the explanation list with the new explanation (assume HTML string)
+                    document.getElementById('explanation-list').innerHTML = data.explanation;
+                    statusDiv.textContent = 'Analysis updated.';
+                } else {
+                    statusDiv.textContent = data.error || 'Re-analysis failed.';
+                }
+            })
+            .catch(() => { statusDiv.textContent = 'Re-analysis failed.'; })
+            .finally(() => { btn.disabled = false; });
+        }
+        </script>
+        
+        <!-- Impact Assessment Section -->
+        <div class="mb-4">
+            <h6 class="text-danger"><i class="fas fa-exclamation-circle me-2"></i>Alert Details</h6>
+            <div class="alert alert-light border-start border-danger border-4 ps-3">
+                <strong>Result:</strong>
+                {% if alert_data['result'] is mapping %}
+                <table class="table table-bordered table-sm mt-2 mb-0">
+                    <tbody>
+                        {% for key, value in alert_data['result'].items() %}
+                        <tr>
+                            <th class="text-muted" style="width: 30%">{{ key }}</th>
+                            <td>{% if value is mapping or value is sequence %}<pre class="mb-0">{{ value|tojson(indent=2) }}</pre>{% else %}{{ value }}{% endif %}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                {% elif alert_data['result'] is sequence %}
+                <ul class="mb-0 mt-2">
+                    {% for item in alert_data['result'] %}
+                    <li>{% if item is mapping or item is sequence %}<pre class="mb-0">{{ item|tojson(indent=2) }}</pre>{% else %}{{ item }}{% endif %}</li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <div class="mt-2">{{ alert_data['result'] }}</div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <!-- Recommended Actions Section -->
+        <div class="mb-4">
+            <h6 class="text-success"><i class="fas fa-tasks me-2"></i>Recommended Actions</h6>
+            <div class="alert alert-light border-start border-success border-4 ps-3">
+                <div class="row">
+                    <div class="col-md-12">
+                        {# Ensure formatted_actions is sanitized in backend before using |safe #}
+                        {{ formatted_actions|safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Timeline & Context -->
+        <div class="mb-3">
+            <h6 class="text-info"><i class="fas fa-clock me-2"></i>Event Context</h6>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-light border-0">
+                            <div class="card-body text-start py-2">
+                                <small class="text-muted">Generated</small><br>
+                                <strong>{{ alert_data['timestamp']|e if alert_data and 'timestamp' in alert_data else 'N/A' }}</strong>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-light border-0">
+                        <div class="card-body text-start py-2">
+                            <small class="text-muted">Target</small><br>
+                            <strong>{{ alert_data['dest_ip']|e if alert_data and 'dest_ip' in alert_data else (alert_data['destination_ip']|e if alert_data and 'destination_ip' in alert_data else 'Multiple') }}</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-light border-0">
+                        <div class="card-body text-start py-2">
+                            <small class="text-muted">Duration</small><br>
+                            <strong>Ongoing</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-footer bg-light text-muted">
+        <small><i class="fas fa-robot me-1"></i>Enhanced analysis by SOC AI Assistant • {{ current_time }}</small>
+    </div>
+</div>

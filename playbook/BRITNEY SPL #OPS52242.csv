@@ -1,0 +1,44 @@
+﻿#,Phase,Phase description,Detail actions
+1,Detect handling,Change the status of Mission Control findings from 'New' to 'In Progress',"- Go to Splunk Enterprise Security > Mission Control
+- Group all related Findings into one Investigation (based on trigger time)
+- Change the status of Mission Control findings and investigation from 'New' to 'In Progress'"
+2,Validate detection,Identify whether the detection is False/True Positive,"- Check if Last hit time is over 7 days"
+3,Investigate,Collect additional data to analyze impacts, threats, risks,"- Step 1: Run a search to view traffic information related to the firewall policy in the alert:
+         index=* source=sc4s ""policy name in inline table"" 
+         |table _time src_ip dest_ip dest_port dest_name src_user app action 
+         |sort -_time
+   => Record findings from this step
+
+- Step 2: Check both src_ip and dest_ip:
+   + If all are internal IPs => move to Step 3
+   + If external IPs appear => check information and usage
+       • whatismyip: identify if the IP relates to a known service in use
+       • virustotal: check if the IP is clean
+   => Record findings from this step
+
+- Step 3: Identify when it occurred:
+   + During working hours
+   + Outside working hours
+   => Record findings from this step
+
+- Step 4: Identify other relevant info (if any):
+   + User who triggered this rule (check if the user’s department matches firewall policy name/function)
+         index=windows eventtype=""ad-files"" host=""*-ad01"" ""username from Step 1 event"" source=ActiveDirectory 
+         |dedup department |table department
+   + If no username but suspected user activity, check if src_ip/dest_ip belongs to a user:
+         index=wineventlog host=""*-ad01"" EventCode=4769 ""src_ip or dest_ip"" 
+         |dedup src_ip |table src_ip user
+   => Record findings from this step
+
+- Conclusion:
+   + Check Excel file in channel Proj.BRITNEY25-SIEM Level 1 - Britney - Dormant Firewall Rule.xlsx to confirm if this firewall rule has appeared before
+   + If src_ip and dest_ip are suspicious and not clean => suspicious
+   + If outside working hours and the service is not a scheduled task => suspicious
+   + If policy name does not match information in Step 4 => suspicious
+   + <additional cases can be listed>
+   => Remaining cases are normal customer activity"
+4,Respond,Request system owner's confirmation or action,"- Contact system owner to request verification or action if needed
+- Document investigation result in Mission Control investigation"
+5,Follow-up actions,Follow up actions to close findings,"- Follow up on requested verification or action
+- Change the status of Mission Control findings and investigation to 'Closed'"
+6,Post incident,Review & improve detection if needed,"- Tune alert rules if necessary"
